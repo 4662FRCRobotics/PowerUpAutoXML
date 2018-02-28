@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<stratpo name = "Auto1">
+<Pattern fieldlayout = "LL">CrossAuto</Pattern>
+<Pattern fieldlayout = "LR">CrossAuto</Pattern>
+<Pattern fieldlayout = "RL">CrossAuto</Pattern>
+<Pattern fieldlayout = "RR">CrossAuto</Pattern>
+</stratpo>
+<stratpo name = "Auto2">
+<Pattern fieldlayout = "LL">CrossAuto</Pattern>
+<Pattern fieldlayout = "LR">CrossAuto</Pattern>
+<Pattern fieldlayout = "RL">CrossAuto</Pattern>
+<Pattern fieldlayout = "RR">CrossAuto</Pattern>
+</stratpo>
+<stratpo name = "Auto3">
+<Pattern fieldlayout = "LL">CrossAuto</Pattern>
+<Pattern fieldlayout = "LR">CrossAuto</Pattern>
+<Pattern fieldlayout = "RL">CrossAuto</Pattern>
+<Pattern fieldlayout = "RR">CrossAuto</Pattern>
+</stratpo>
+<stratpo name = "Auto4">
+<Pattern fieldlayout = "LL">CrossAuto</Pattern>
+<Pattern fieldlayout = "LR">CrossAuto</Pattern>
+<Pattern fieldlayout = "RL">CrossAuto</Pattern>
+<Pattern fieldlayout = "RR">CrossAuto</Pattern>
+</stratpo>
+<stratpo name = "SwSi1">
+<Pattern fieldlayout = "LL">Pos1LSw</Pattern>
+<Pattern fieldlayout = "LR">Pos1LSw</Pattern>
+<Pattern fieldlayout = "RL">CrossAuto</Pattern>
+<Pattern fieldlayout = "RR">CrossAuto</Pattern>
+</stratpo>
+<stratpo name = "SwSi2">
+<Pattern fieldlayout = "LL">Pos2LSw></Pattern>
+<Pattern fieldlayout = "LR">Pos2LSw</Pattern>
+<Pattern fieldlayout = "RL">CrossAuto</Pattern>
+<Pattern fieldlayout = "RR">CrossAuto</Pattern>
+</stratpo>
+<stratpo name = "SwSi3">
+<Pattern fieldlayout = "LL">CrossAuto</Pattern>
+<Pattern fieldlayout = "LR">CrossAuto </Pattern>
+<Pattern fieldlayout = "RL">Pos3RSw</Pattern>
+<Pattern fieldlayout = "RR">Pos3RSw</Pattern>
+</stratpo>
+<stratpo name = "SwSi4">
+<Pattern fieldlayout = "LL">CrossAuto</Pattern>
+<Pattern fieldlayout = "LR">Pos4RSw</Pattern>
+<Pattern fieldlayout = "RL">CrossAuto</Pattern>
+<Pattern fieldlayout = "RR">Pos4RSw</Pattern>
+</stratpo>
+<stratpo name = "SwCo1">
+<Pattern fieldlayout = "LL">Pos1LSw</Pattern>
+<Pattern fieldlayout = "LR">Pos1LSw</Pattern>
+<Pattern fieldlayout = "RL">Pos1RSw</Pattern>
+<Pattern fieldlayout = "RR">Pos1RSw</Pattern>
+</stratpo>
+<stratpo name = "SwCo2">
+<Pattern fieldlayout = "LL">Pos2LSw</Pattern>
+<Pattern fieldlayout = "LR">Pos2LSw</Pattern>
+<Pattern fieldlayout = "RL">Pos2RSw</Pattern>
+<Pattern fieldlayout = "RR">Pos2RSw</Pattern>
+</stratpo>
+<stratpo name = "SwCo3">
+<Pattern fieldlayout = "LL">Pos3LSw</Pattern>
+<Pattern fieldlayout = "LR">Pos3LSw</Pattern>
+<Pattern fieldlayout = "RL">Pos3RSw</Pattern>
+<Pattern fieldlayout = "RR">Pos3RSw</Pattern>
+</stratpo>
+<stratpo name = "SwCo4">
+<Pattern fieldlayout = "LL">Pos4LSw</Pattern>
+<Pattern fieldlayout = "LR">Pos4LSw</Pattern>
+<Pattern fieldlayout = "RL">Pos4RSw</Pattern>
+<Pattern fieldlayout = "RR">Pos4RSw</Pattern>
+</stratpo>
+<stratpo name = "ScSi1">
+<Pattern fieldlayout = "LL">Pos1LSc</Pattern>
+<Pattern fieldlayout = "LR">Pos1LSc</Pattern>
+<Pattern fieldlayout = "RL">CrossAuto</Pattern>
+<Pattern fieldlayout = "RR">CrossAuto</Pattern>
+</stratpo>
+<stratpo name = "ScSi2">
+<Pattern fieldlayout = "LL">Pos2LSc</Pattern>
+<Pattern fieldlayout = "LR">Pos2LSc</Pattern>
+<Pattern fieldlayout = "RL">CrossAuto</Pattern>
+<Pattern fieldlayout = "RR">CrossAuto</Pattern>
+</stratpo>
+<stratpo name = "ScSi3">
+<Pattern fieldlayout = "LL">CrossAuto</Pattern>
+<Pattern fieldlayout = "LR">Pos3RSc</Pattern>
+<Pattern fieldlayout = "RL">CrossAuto</Pattern>
+<Pattern fieldlayout = "RR">Pos3RSc</Pattern>
+</stratpo>
+<stratpo name = "ScSi4">
+<Pattern fieldlayout = "LL">CrossAuto</Pattern>
+<Pattern fieldlayout = "LR">Pos4RSc</Pattern>
+<Pattern fieldlayout = "RL">CrossAuto</Pattern>
+<Pattern fieldlayout = "RR">Pos4RSc</Pattern>
+</stratpo>
+<stratpo name = "ScCo1">
+<Pattern fieldlayout = "LL">Pos1LSc</Pattern>
+<Pattern fieldlayout = "LR">Pos1RSc</Pattern>
+<Pattern fieldlayout = "RL">Pos1LSc</Pattern>
+<Pattern fieldlayout = "RR">Pos1RSc</Pattern>
+</stratpo>
+<stratpo name = "ScCo2">
+<Pattern fieldlayout = "LL">Pos2LSc</Pattern>
+<Pattern fieldlayout = "LR">Pos2RSc</Pattern>
+<Pattern fieldlayout = "RL">Pos2LSc</Pattern>
+<Pattern fieldlayout = "RR">Pos2RSc</Pattern>
+</stratpo>
+<stratpo name = "ScCo3">
+<Pattern fieldlayout = "LL">Pos3LSc</Pattern>
+<Pattern fieldlayout = "LR">Pos3RSc</Pattern>
+<Pattern fieldlayout = "RL">Pos3LSc</Pattern>
+<Pattern fieldlayout = "RR">Pos3RSc</Pattern>
+</stratpo>
+<stratpo name = "ScCo4">
+<Pattern fieldlayout = "LL">Pos4LSc</Pattern>
+<Pattern fieldlayout = "LR">Pos4RSc</Pattern>
+<Pattern fieldlayout = "RL">Pos4LSc</Pattern>
+<Pattern fieldlayout = "RR">Pos4RSc</Pattern>
+</stratpo>
+
+
+<PatternCommands name = "CrossAuto">
+<Command name = "Forward">10</Command>
+</PatternCommands>
+
+
+
+
+
+
+<PatternCommands name = "Pos1LSw">
+<Command name = "Forward">14.4</Command>
+<Command name = "RotateR">90</Command>
+<Command name = "Forward">3.6</Command>
+<Command name = "UnloadToSw"></Command>
+</PatternCommands>
+
+
+
+
+
+
+<PatternCommands name = "Pos2LSw">
+<Command name = "Forward">10.18</Command>
+<Command name = "RotateR>90</Command>
+<Command name = "Forward">1.52</Command>
+<Command name = "RotateL">90</Command>
+<Command name = "Forward">1.52</Command>
+<Command name = "UnloadToSw"></Command>
+</PatternCommands>
+
+
+<PatternCommands name = "Pos3LSw">
+<Command name = "Forward">12.6</Command>
+<Command name = "RotateL">90</Command>
+<Command name = "Forward">15.2</Command>
+<Command name = "RotateR">90</Command>
+<Command name = "Forward">8.4</Command>
+<Command name = "RotateR">90</Command>
+<Command name = "Forward">3.8</Command>
+<Command name = "UnloadToSw"></Command>
+</PatternCommands>
+
+
+<PatternCommands name = "Pos4LSw">
+<Command name = "Forward">12.6</Command>
+<Command name = "RotateL">90</Command>
+<Command name = "Forward">20.9</Command>
+<Command name = "RotateR">90</Command>
+<Command name = "Forward">8.4</Command>
+<Command name = "RotateR">90</Command>
+<Command name = "Forward">3.8</Command>
+<Command name = "UnloadToSw"></Command>
+</PatternCommands>
+
+
+<PatternCommands name = "Pos1RSw">
+<Command name = "Forward">6.1</Command>
+<Command name = "RotateR">90</Command>
+<Command name = "Forward">18.2</Command>
+<Command name = "RotateL">90</Command>
+<Command name = "Forward">8.4</Command>
+<Command name = "RotateL">90</Command>
+<Command name = "Forward">1.5</Command>
+<Command name = "UnloadToSw"></Command>
+</PatternCommands>
+
+
+<PatternCommands name = "Pos2RSw">
+<Command name = "Forward">6.08</Command>
+<Command name = "RotateR">90</Command>
+<Command name = "Forward">10.94</Command>
+<Command name = "RotateL">90</Command>
+<Command name = "Forward">5.78</Command>
+<Command name = "UnloadToSw"></Command>
+</PatternCommands>
+
+
+
+
+<PatternCommands name = "Pos3RSw">
+<Command name = "Forward">12.6</Command>
+<Command name = "RotateR">90</Command>
+<Command name = "Forward">3</Command>
+<Command name = "RotateL">90</Command>
+<Command name = "Forward">8.4</Command>
+<Command name = "RotateL">90</Command>
+<Command name = "Forward">1.5</Command>
+<Command name = "UnloadToSw"></Command>
+</PatternCommands>
+
+
+<PatternCommands name = "Pos3LSw">
+<Command name = "Forward">12.6</Command>
+<Command name = "RotateL">9</Command>
+<Command name = "Forward">15.2</Command>
+<Command name = "RotateR">90</Command>
+<Command name = "Forward">8.4</Command>
+<Command name = "RotateR">90</Command>
+<Command name = "Forward"<3.8</Command> 
+<Command name = "UnloadToSw"></Command>
+</PatternCommands>
+
+
+<PatternCommands name = "Pos4RSw">
+<Command name = "Forward">12.6</Command>
+<Command name = "RotateL">90</Command>
+<Command name = "Forward">2.7</Command>
+<Command name = "RotateR">90</Command>
+<Command name = "Forward">8.4</Command>
+<Command name = "RotateL">90</Command>
+<Command name = "Forward">1.5</Command>
+<Command name = "UnloadToSw"></Command>
+</PatternCommands>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<PatternCommands name = "Pos1LSc">
+<Command name = "Forward">27.4</Command>
+<Command name = "RotateR">90</Command>
+<Command name = "Forward">2.4</Command>
+<Command name = "UnloadToSc"></Command>
+</PatternCommands>
+
+
+
+
+
+
+<PatternCommands name = "Pos2LSc">
+<Command name = "Forward">6.08</Command>
+<Command name = "RotateL">90</Command>
+<Command name = "Forward">3.8</Command>
+<Command name = "RotateR">90</Command>
+<Command name = "Forward">20.67</Command>
+<Command name = "RotateR">90</Command>
+<Command name = "Forward">1.82</Command>
+<Command name = "UnloadToSc"></Command>
+</PatternCommands>
+
+
+<PatternCommands name = "Pos3LSc">
+<Command name = "Forward">12.6</Command>
+<Command name = "RotateL">90</Command>
+<Command name = "Forward">10</Command>
+<Command name = "RotateR">90</Command>
+<Command name = "Forward">14</Command>
+<Command name = "RotateL">90</Command>
+<Command name = "Forward">2.3</Command>
+<Command name = "UnloadToSc"></Command>
+</PatternCommands>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<PatternCommands name = "Pos4LSc">
+<Command name = "Forward">12.6</Command>
+<Command name = "RotateL">90</Command>
+<Command name = "Forward">20.9</Command>
+<Command name = "RotateR">90</Command>
+<Command name = "Forward">21.3</Command>
+<Command name = "RotateR">90</Command>
+<Command name = "Forward">2.3</Command>
+<Command name = "UnloadToSc"></Command>
+</PatternCommands>
+
+
+<PatternCommands name = "Pos1RSc">
+<Command name = "Forward">6.1</Command>
+<Command name = "RotateR">90</Command>
+<Command name = "Forward">20.8</Command>
+<Command name = "RotateL">90</Command>
+<Command name = "Forward">21.3</Command>
+<Command name = "RotateL">90</Command>
+<Command name = "Forward">3</Command>
+<Command name = "UnloadToSc"></Command>
+
+
+</PatternCommands>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<PatternCommands name = "Pos2RSc">
+<Commands name = "Forward">6.06</Command>
+<Command name = "RotateR">90</Command>
+<Command name = "Forward">17.10</Command>
+<Command name = "RotaleL">90</Command>
+<Command name = "Forward">21.28</Command>
+<Command name = "RotateL">90</Command>
+<Command name = "Forward">3.04</Command>
+<Command name = "UnloadToSc"></Command>
+</PatternCommands>
+
+
+<PatternCommands name = "Pos3RSc">
+<Command name = "Forward">12.6</Command>
+<Command name = "RotateR">90</Command>
+<Command name = "Forward">5.3</Command>
+<Command name = "RotateL">90</Command>
+<Command name = "Forward">21.3</Command>
+<Command name = "RotateL">90</Command>
+<Command name = "Forward">3.0</Command>
+</PatternCommands>
+
+
+
+
+
+
+
+
+
+
+
+
+<PatternCommands name = "Pos4RSc">
+<Command name = "Forward">27.4</Command>
+<Command name = "RotateL">90</Command>
+<Command name = "Forward">3</Command>
+<Command name = "UnloadToSc"></Command>
+</PatternCommands>
+</root>
+
+
+
+
+
+
+
+
+
+
+
+
+Pos#(L/R)(Sw/Sc)
+//stratpo[@name="Auto1"]//Pattern[@fieldlayout="LL"] (Format for XPath)
+
+
+//PatternCommands[@name="Pos4Rsc"]//Command
+
+
+
+
+Pos# + Location
+
+
+LSw
+RSw
+LSc
+RSc
